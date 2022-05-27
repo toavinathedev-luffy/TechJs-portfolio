@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.image{
+    width: 100%;
+    height: 100vh;
+    background: #212121;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.anime img{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+.anime{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+       
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.anime img:nth-child(1){
+    animation-delay: 2s;
+}
+.anime img:nth-child(2){
+    animation-delay: 1s;
+}
+.anime img:nth-child(3){
+    animation-delay: 6s;
+}
+.anime img:nth-child(4){
+    animation-delay: 5s;
+}
+.anime img:nth-child(5){
+    animation-delay: 4s;
+}

@@ -1,0 +1,99 @@
+.content {
+    margin-top: 50px;
+}
+
+.block {
+    margin-left: 0;
+    display: inline-block;
+    margin-right: 80px;
+    /*border: 3px solid #009688;*/
+    margin-bottom: 10px;
+    border-radius: 50px;
+    /*background: linear-gradient(#009688, #2f5854);*/
+}
+
+.pic1 {
+    background: linear-gradient(#009688, #2f5854);
+    border-radius: 25px;
+}
+.pic1 img{
+
+    border-radius: 25px;
+    overflow: hidden;
+    transform: rotate(0deg);
+    transition: 0.5s;
+    width: 200px;
+    height: 200px;
+}
+.pic1 img:hover{
+    transform: rotate(10deg);
+}
+
+.pic2 {
+    background: linear-gradient(#009688, #2f5854);
+    border-radius: 25px;
+}
+.pic2 img{
+    border-radius: 25px;
+    overflow: hidden;
+    transform: rotate(0deg);
+    transition: 0.5s;
+    width: 200px;
+    height: 200px;
+}
+.pic2 img:hover{
+    transform: rotate(10deg);
+}
+
+.pic3 {
+    background: linear-gradient(#009688, #2f5854);
+    border-radius: 25px;
+}
+.pic3 img{
+    border-radius: 25px;
+    overflow: hidden;
+    transform: rotate(0deg);
+    transition: 0.5s;
+    width: 200px;
+    height: 200px;
+}
+.pic3 img:hover{
+    transform: rotate(10deg);
+}
+
+.pic4 {
+    background: linear-gradient(#009688, #2f5854);
+    border-radius: 25px;
+}
+.pic4 img{
+    border-radius: 25px;
+    overflow: hidden;
+    transform: rotate(0deg);
+    transition: 0.5s;
+    width: 200px;
+    height: 200px;
+}
+.pic4 img:hover{
+    transform: rotate(10deg);
+}
+
+.pic5 {
+    background: linear-gradient(#009688, #2f5854);
+    border-radius: 25px;
+}
+.pic5 img{
+    border-radius: 25px;
+    overflow: hidden;
+    transform: rotate(0deg);
+    transition: 0.5s;
+    width: 200px;
+    height: 200px;
+}
+.pic5 img:hover{
+    transform: rotate(10deg);
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
